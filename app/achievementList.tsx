@@ -22,7 +22,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'fiksi',
-		image: '/image/fiksi.jpeg',
+		image: '/certificates/1stWinner_FIKSI2024.jpg',
 		label: 'fiksi',
 		title: '1st Winner in FIKSI 2024 💡',
 		level: 'National - by Pusresnas',
@@ -31,7 +31,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'mage',
-		image: '/image/mage.jpeg',
+		image: '/certificates/1stWinner_MAGE9_ITS.jpeg',
 		label: 'mage',
 		title: '1st Winner in Mage IoT #9 🤖',
 		level: 'National - by ITS',
@@ -40,7 +40,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'ksn',
-		image: '/image/ksn.jpeg',
+		image: '/certificates/1stRunnerUp_KSN_BSN.jpeg',
 		label: 'ksn',
 		title: '1st Runner Up in National Standarization Competition 📝',
 		level: 'National - by BSN',
@@ -49,7 +49,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'fedex',
-		image: '/image/fedex.png',
+		image: '/certificates/Top10_InternationalTradeChallenge_FedEx.jpg',
 		label: 'fedex',
 		title: 'Top 10 Finalist FedEx International Trade Challenge 🤝',
 		level: 'National - by FedEx',
@@ -58,7 +58,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'steam',
-		image: '/image/sft.jpeg',
+		image: '/certificates/3rdWinner_STEAM_SampoernaAcademy.jpeg',
 		label: 'steam',
 		title: '3rd Winner STEAM Competition 🔭',
 		level: 'National - by Sampoerna Academy',
@@ -67,7 +67,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'lks-ai-city',
-		image: '/image/lks-city.jpeg',
+		image: '/certificates/2ndWinner_LKS_AI_CityLevel.jpeg',
 		label: 'lks-ai-city',
 		title: '2nd Winner LKS Artificial Intelligence 💻',
 		level: 'City - by Dikmen',
@@ -76,8 +76,8 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'sft',
-		image: '/image/sft.jpeg',
-		label: 'lks-ai-city',
+		image: '/certificates/SemifinalistSFT2024.jpg',
+		label: 'sft',
 		title: 'Semifinalist Samsung Solve For Tomorrow 👩🏻‍💻',
 		level: 'City - by Dikmen',
 		description: 'We brought and strengthen Revive through SFT workshops, particularly design thinking and AI as well as mentoring.',
@@ -85,7 +85,7 @@ let AchievementsList: IPropAcheivements[] = [
 	},
 	{
 		id: 'binus',
-		image: '/image/binus.jpeg',
+		image: '/certificates/Top5_NBCC_BinusUniversity.png',
 		label: 'binus',
 		title: 'Top 5 Binus Business Case Competition',
 		level: 'National - by binus',

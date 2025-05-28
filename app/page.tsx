@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AchievementsList from "./achievementList";
@@ -156,13 +157,19 @@ export default function Home() {
         <h3 className="text-center text-5xl font-black">Let's Collaborate!</h3>
         <div className="text-4xl flex flex-wrap justify-center mx-auto mt-8">
           <div className="mx-5 w-16 h-16 flex items-center">
-            <img src="/svg/connect/instagram.svg" alt="seaborn" />
+            <a href='https://www.instagram.com/aqilahhhxx___/' target="_blank" rel="noopener noreferrer">
+              <img src="/svg/connect/instagram.svg" alt="seaborn" />
+            </a>
           </div>
           <div className="mx-5 w-16 h-16 flex items-center">
-            <img src="/svg/connect/github.svg" alt="nodejs" />
+            <a href="https://github.com/akiraverse" target="_blank" rel="noopener noreferrer">
+              <img src="/svg/connect/github.svg" alt="nodejs" />
+            </a>
           </div>
           <div className="mx-5 w-16 h-16 flex items-center">
-            <img src="/svg/connect/linkedin.svg" alt="tailwind" />
+            <a href="https://www.linkedin.com/in/fathimah-aqilah/" target="_blank" rel="noopener noreferrer">
+              <img src="/svg/connect/linkedin.svg" alt="tailwind" />
+            </a>
           </div>
           <div className="mx-5 w-16 h-16 flex items-center">
             <img src="/svg/connect/tiktok.svg" alt="tailwind" />

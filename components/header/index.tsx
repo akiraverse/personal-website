@@ -1,7 +1,9 @@
 "use client"
 import Head from "next/head";
+import Link from "next/link";
 import { ReactNode } from "react";
 import MenuItem from "./menuItem";
+
 
 type MenuType = {
    id: string,
@@ -31,7 +33,9 @@ const Header = ({children, id, title, menuList}: ManagerProp) => {
          <div className="w-[100%] border-b-2 border-b-[#4D4D4D] mt-2">
             <header className="w-[90%] flex flex-row text-slate-50 justify-center mx-auto py-4">
                <div className="w-auto mr-auto overflow-y-auto">
-                  <h1 className="font-bold flex items-center p-2 my-2">Akiraverse</h1>
+                  <Link href={'/'}>
+                     <h1 className="font-bold flex items-center p-2 my-2">Akiraverse</h1>
+                  </Link>
                </div>
 
                <div className="w-auto h-auto">
