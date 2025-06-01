@@ -31,9 +31,9 @@ export default function Home() {
     <div className="tracking-[1px] pb-32">
 
       <div className="p-6">
-        <h1 className="text-[12vh] leading-[100%]  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">
+        <h1 className="lg:text-[12vh] leading-[100%]  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400 [min-width:320px]:text-3xl max-[640px]:text-3xl">
           Hi I'm Aqilah,<br/><span className="italic font-[100]"> a software engineering</span><br />
-          student at SMK Telkom Malang
+          student at SMK Telkom Malang   
         </h1>
       </div>
 
@@ -125,11 +125,11 @@ export default function Home() {
       </div>
 
       <div className="mt-[200px]">
-        <h3 className="text-center text-5xl font-black">Achievements</h3>
-        <div className="flex flex-wrap justify-center mx-auto mt-5">
+        <h3 className="text-center text-5xl font-black [min-width:320px]:text-xl max-[640px]:text-xl">Achievements</h3>
+        <div className="flex lg:flex-wrap justify-center mx-auto mt-5 [min-width:320px]:flex-col max-[640px]:flex-col">
           {
             AchievementsList.map((data, index) => 
-              <div key={data.id} className="w-[30%] mx-3 my-3 rounded-lg border border-gray-300">
+              <div key={data.id} className="lg:w-[30%] mx-3 my-3 rounded-lg border border-gray-300">
                 <div className="w-full h-[35vh] rounded-t-lg overflow-hidden">
                   <img className="rounded-t-lg w-full h-full object-cover" src={data.image} alt={data.label} />
                 </div>
