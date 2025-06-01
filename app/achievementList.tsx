@@ -26,7 +26,7 @@ let AchievementsList: IPropAcheivements[] = [
 		label: 'fiksi',
 		title: '1st Winner in FIKSI 2024 💡',
 		level: 'National - by Pusresnas',
-		description: 'I learn how to build a good problem-solution fit through design thinking, delivering tech benefits to clients through this entrepreneurship-based competition!',
+		description: 'Revive, is a digital ecosystem for textile waste in utlising AI and IOT. Through fiksi selection, we are able to improve Revive business strategy through design thinking framework',
 		date: 'November 2024'
 	},
 	{
@@ -62,7 +62,7 @@ let AchievementsList: IPropAcheivements[] = [
 		label: 'steam',
 		title: '3rd Winner STEAM Competition 🔭',
 		level: 'National - by Sampoerna Academy',
-		description: 'We recommend a solution to tackle an issue of water conservation in Australia through an rice husk based plastics that can degrade fast.',
+		description: 'steam is a start off of Revive, this competition has innovation approach more than business, but it guided us into brainstorming more regarding the techs',
 		date: 'March 2024'
 	},
 	{

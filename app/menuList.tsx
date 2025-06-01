@@ -30,7 +30,7 @@ let MenuList: IPropMenu[] = [
 	},
 	{
 		id: `curriculum-vitae`,
-		path: `/curriculum-vitae`,
+		path: `https://drive.google.com/file/d/1RX6HxPKwuej9yvYN7v_2hY_g9_9Cp2V2/view?usp=sharing`,
 		label: `Curriculum Vitae`,
    
 	},
