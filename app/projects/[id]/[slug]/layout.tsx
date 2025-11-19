@@ -1,8 +1,7 @@
 
 import Head from "next/head";
-import "./globals.css";
 import { Montserrat } from "next/font/google";
-import FontAwesomeProvider from './FontAwesomeProvider';
+import FontAwesomeProvider from '@/app/FontAwesomeProvider';
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
