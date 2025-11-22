@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-email/render": "^2.0.0",
     "@supabase/supabase-js": "^2.81.1",
     "autoprefixer": "^10.4.21",
     "lucide-react": "^0.553.0",

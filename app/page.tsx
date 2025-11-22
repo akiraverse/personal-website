@@ -39,7 +39,6 @@ import {
 export default function HomePage() {
   const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
   const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
-  const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN || ""; // optional but recommended
   const supabase: SupabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
   const [projects, setProjects] = useState<IProject[] | null>([]);
