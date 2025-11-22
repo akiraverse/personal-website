@@ -8,6 +8,7 @@ import { supabase } from "@/global";
 import React from "react";
 import ReactMarkdown from "react-markdown"
 import { useRouter } from "next/router";
+import { use } from 'react';
 
 interface PageProps {
   params: Promise<{
@@ -16,8 +17,8 @@ interface PageProps {
   }>;
 }
 
-export default async function ProjectDetailPage({ params }: { params: Promise<{ id: string; slug: string }> }) {
-  const { id, slug } = await params;
+export default function ProjectDetailPage({ params }: { params: Promise<{ id: string; slug: string }> }) {
+  const { id, slug } =  use(params);
 
   const [project, setProject] = useState<IProject | null>(null);
   const [loading, setLoading] = useState(true);
