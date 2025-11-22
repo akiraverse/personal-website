@@ -143,7 +143,7 @@ export default function Collaborate({id}: {id: string}) {
 									{name: "Linkedin", href: "https://linkedin.com/in/fathimah-aqilah", icon: Linkedin},
 									{name: "Instagram", href: "https://instagram.com/aqilahhhxx___", icon: Instagram},
 									{name: "Youtube", href: "https://youtube.com", icon: Youtube},
-									{name: "Tiktok", href: "https://tiktok.com/aqilahhhxx___", icon: FaTiktok},
+									{name: "Tiktok", href: "https://www.tiktok.com/@aqilahhhxx___", icon: FaTiktok},
 									{name: "Discord", href: "https://discord.com", icon: FaDiscord},
 								].map((data) => {
 									const IconComponent = data.icon;
