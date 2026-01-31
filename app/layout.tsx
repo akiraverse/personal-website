@@ -28,7 +28,7 @@ const RootLayout = ({ children }: PropsLayout) => {
       <Head>
         <script src="https://kit.fontawesome.com/0c3026cdac.js" crossOrigin="anonymous"></script>
       </Head>
-      <body className={`${montserrat.variable} ${montserrat.style} bg-gray-900/80`}>
+      <body className={`${montserrat.variable} ${montserrat.style} bg-gray-900/80 `}>
         <FontAwesomeProvider>
             {children}  
         </FontAwesomeProvider>

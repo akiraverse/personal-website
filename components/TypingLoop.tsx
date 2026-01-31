@@ -69,7 +69,7 @@ export default function TypingLoop({
 	}, [display, isDeleting, wordIndex, words, typingDuration, deletingDuration]);
 
 	return (
-		<div className="w-fit lg:text-8xl md:text-7xl text-6xl text-wrap leading-[100%]  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">
+		<div className="w-fit lg:text-[7.2rem] md:text-[6.2rem] sm:text-[4.5rem] text-[3.5rem] text-wrap leading-[100%] font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">
 			<span>A {' '}</span>
 			<span className="h-fit">
 				<span aria-live="polite" >{display}</span>
